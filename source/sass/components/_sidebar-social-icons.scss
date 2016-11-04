@@ -1,0 +1,32 @@
+/*
+|-------------------------------------------------------------------------------
+| Social icons - Size, color and animation
+|-------------------------------------------------------------------------------
+*/
+
+.sidebar-social-icon {
+    font-size: 1.8em;
+}
+
+.ion-social-github,
+.ion-social-twitter,
+.ion-social-linkedin,
+.ion-social-email {
+    transition: color 0.3s;
+}
+
+.ion-social-github:hover {
+    color: #000000;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-linkedin:hover {
+    color: #007bb5;
+}
+
+.ion-ios-email:hover {
+    color: #dd4b39;
+}
