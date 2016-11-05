@@ -1,7 +1,13 @@
 <div class="c-sidebar-navigation">
     {{#foreach navigation}}
-        <a class="c-sidebar-navigation__item" href="{{url absolute="true"}}" title="{{label}}">
-            {{label}}
-        </a>
+        {{#if_eq label 'Home'}}
+            <a class="c-sidebar-navigation__item" href="{{url absolute="true"}}" title="{{label}}">
+                <i class="ion-home"></i> {{label}}
+            </a>
+            {{else}}
+            <a class="c-sidebar-navigation__item" href="{{url absolute="true"}}" title="{{label}}">
+                {{label}}
+            </a>
+            {{/if_eq}}
     {{/foreach}}
 </div>
